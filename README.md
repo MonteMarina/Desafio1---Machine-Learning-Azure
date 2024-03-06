@@ -1,4 +1,4 @@
-# Desafio - Machine-Learning-Azure - Bootcamp Microsoft Azure AI Fundamentals da Dio.me
+# Desafio - Machine Learning Azure - Bootcamp Microsoft Azure AI Fundamentals da Dio.me
 
 Passo a passo do experimento de Aprendizaem Automatizada, utilizando a **Azure Machine Learning**
 
@@ -14,11 +14,11 @@ Link da documentação: <https://microsoftlearning.github.io/mslearn-ai-fundamen
 
 4 - Buscamos por '**Azure Machine Learning**' no campo de busca;
 
-5 - Clicamos em **Criar** > ** Novo Workspace**;
+5 - Clicamos em **Criar** > **Novo Workspace**;
 
 6 - Criamos um novo 'Grupo de recursos', dando um nome, em 'Detalhes do workspace' adicionamos as informações de 'nome' e 'região'. As outras informações como 'conta, Cofre... já serão preenchiadas, não as alteramos;
 
-7  - Clicamos em '** Examinar e Criar**', após irá para uma tela com o alerta 'validação aprovada', e então, clicamos em '**criar**';
+7  - Clicamos em '**Examinar e Criar**', após irá para uma tela com o alerta 'validação aprovada', e então, clicamos em '**criar**';
 
 8 - Lava alguns minutos com o alerta em tela 'Implantação em andamente', até que finalize a implantação com a mensagem 'A implantação foi concluída';
 
@@ -30,7 +30,7 @@ Link da documentação: <https://microsoftlearning.github.io/mslearn-ai-fundamen
 
 12 - Clicamos no Espaço de trabalho recém criado (ou no qual escolhermos) e clicamos em '**ML Automatizado**' > '**Novo trabalho de ML automatizado**' para acessarmos no Ambiente;
 
-13 - Na tela preenchemos os dados do trabalho, com as informações fornecidas pela documentação da Microsoft, por tópicos clicando em 'Avançar' até  , segue abaixo:
+13 - Na tela preenchemos os dados do trabalho, com as informações fornecidas pela documentação da Microsoft, por tópicos clicando em 'Avançar', segue abaixo:
  
     Configurações básicas :
 
@@ -52,7 +52,7 @@ Link da documentação: <https://microsoftlearning.github.io/mslearn-ai-fundamen
     Descrição : dados históricos de aluguel de bicicletas
     Tipo : Tabular
 
-15 - Após clicarmos em 'Avançar' selecionamos a opão '**Dos arquivos da web' em Fonte de dados;
+15 - Após clicarmos em 'Avançar' selecionamos a opão '**Dos arquivos da web**' em Fonte de dados;
 
 16 - Avançamos e chegamos em 'Url da Web', preenchemos assim:
 
@@ -70,7 +70,7 @@ Link da documentação: <https://microsoftlearning.github.io/mslearn-ai-fundamen
 
 18 - Ao avançarmos, chegamos na tela 'Esquema', não é necessário executar nenhuma atividade nesta página, apenas clicamos em '**avançar**';
 
-19 - Chegamos no tópico 'Examinar', verificamos um resumo,  se as informações estão de acordo com a documentação e clicamos em '**Criar';
+19 - Chegamos no tópico 'Examinar', verificamos um resumo,  se as informações estão de acordo com a documentação e clicamos em '**Criar**';
 
 20 - Após a ativação de dados, no fim da página em 'Selecionar dados', selecionamos o nosso dado recém criado '**algueldebicicletas** e clicamos em '**Avançar**';
 
@@ -117,7 +117,7 @@ Link da documentação: <https://microsoftlearning.github.io/mslearn-ai-fundamen
 
 28 - Na guia 'Métricas', selecionamos os gráficos **residuais** e **predito_true** se eles ainda não estivrem selecionados;
 
-29 - Na guia 'Modelo', selecionamos '**Implantar**' e usamos a opção **servido Web** para implantar o modelo com as configurações abaixo e clicamos em '**implantar**':
+29 - Na guia 'Modelo', selecionamos '**Implantar**' e usamos a opção **servidor Web** para implantar o modelo com as configurações abaixo e clicamos em '**implantar**':
 
 		 Nome : prever-alugueis
      Descrição : Prever aluguel de bicicletas
